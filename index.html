@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../smartmenus/sm-core-css.css">
+    <link rel="stylesheet" href="../smartmenus/sm-clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"/>
+    <title>Course Project Part 3</title>
+    <script src="../jQuery/jquery.min.js"></script>
+    <script src="../smartmenus/jquery.smartmenus.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="../jquery_validate/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <ul id="main-menu" class="sm sm-clean">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+        <li>
+            <a href="#">FAQ</a>
+            <ul>
+                <li>
+                    <p class="para">
+                        Small owned business who believe in values. 
+                        We love to live in the fantasy world and enjoy our games.
+                        Game on gamers!
+                    </p>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Product</a>
+            <ul>
+                <li>
+                    <a href="#">Consoles</a>
+                </li>
+                <li>
+                    <a href="#">Games</a>
+                </li>
+                <li>
+                    <a href="#">Controllers</a>
+                </li>
+                <li>
+                    <a href="#">Accessories</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Services</a>
+            <ul>
+                <li>
+                    <a href="#">Console Repairs</a>
+                </li>
+                <li>
+                    <a href="#">Trade-Ins</a>
+                </li>
+                <li>
+                    <a href="#">Buy/Sell</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <br>
+    <div id="container">
+        <img id="photo" src="images/controllers.jpg" alt="Video Games">
+    </div>
+    <div class="gallery">
+        <a href="images/gaming.jpeg">
+            <img class="thumb" src="images/gaming.jpeg" alt="Gaming">
+        </a>
+        <a href="images/pxfuel.dragon.jpg">
+            <img class="thumb" src="images/pxfuel.dragon.jpg" alt="PX Fuel Dragon">
+        </a>
+        <a href="images/Video-Game-Controller-Wallpaper-Hd-Cool-7-HD-Wallpapers1.jpeg">
+            <img class="thumb" src="images/Video-Game-Controller-Wallpaper-Hd-Cool-7-HD-Wallpapers1.jpeg" alt="Video Game Controllers">
+        </a>
+        <a href="images/videogames1.jpg">
+            <img class="thumb" src="images/videogames1.jpg" alt="Video Games">
+        </a>
+    </div>
+    <fieldset id="info"><legend>User Info</legend>
+        <form action="process.html" method="post" name="signup" id="signup">
+            <p>
+                <label for="username">Username:</label>
+                <input name="name" type="text" id="username" class="required" title="Please type your name." placeholder="Username">
+            </p>
+            <p>
+                <label for="password">Password: </label>
+                <input name="password" type="password" id="password" placeholder="Password">
+            </p>
+            <p class="button">
+                <input type="submit" name="button" id="button" value="Submit">
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,66 @@
+/* navigation */
+body{
+    background: #5C258D;
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);
+    background: linear-gradient(to right, #4389A2, #5C258D);
+    margin-left: 500px;
+    margin-right: 500px;
+}
+#main-menu{
+    display: flex;
+    justify-content: center;
+    background-color: #2a2e30;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.para{
+    text-align: left;
+}
+#photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 55px;
+}
+
+/* gallery */
+.thumb{
+    width: 100px;
+    height: 65px;
+    padding: 7px 4px;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    background-color: #2a2e30;
+    margin: 182px;
+    padding: 0;
+    margin-top: 10%;
+}
+p{
+    text-align: center;
+    color: #000;
+}
+
+/* form */
+#info{
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-align: center;
+}
+legend{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: left;
+    color: #000;
+    font-weight: bold;
+}
+#button{
+    background-color: green;
+    font-size: 15px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
